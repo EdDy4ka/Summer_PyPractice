@@ -1,1 +1,1 @@
-# for_students
+# Summer_PyPractice
