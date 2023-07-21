@@ -1,7 +1,7 @@
 import csv
 
-start_year = str(input("Enter from which year inclusive to start searching for books: "))
-finish_year = str(input("Enter from which year inclusive to finish searching for books: "))
+start_year = str(input("Enter the starting year: "))
+finish_year = str(input("Enter the end year: "))
 
 while finish_year <= start_year:
     print("The beginning of the search is less than the end of the search!")
@@ -16,4 +16,4 @@ for row in csv_search:
         count += 1
 
 if count == 0:
-    print("There are no books with such a release year interval in the table!")
+    print("There are no books with such a year in the table!")
