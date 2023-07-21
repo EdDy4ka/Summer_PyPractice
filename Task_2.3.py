@@ -1,4 +1,4 @@
-armstrong_number = input("Enter a number to check if it is an Armstrong number: ")
+armstrong_number = input("Armstrong number? But check it out: ")
 list_number = list(armstrong_number)
 summa_number = 0
 for i in range(len(list_number)):
