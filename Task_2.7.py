@@ -10,4 +10,3 @@ while negative_numbers < 0:
     else:
         print("Error due to entering a non-negative number!")
         break
-        
