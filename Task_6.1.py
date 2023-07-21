@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-url = str(input("Enter the link to the artist on the 'Яндекс Музыка' platform: "))
+url = str(input("Enter the link on the Yandex Music platform: "))
 # url = 'https://music.yandex.ru/artist/4247128/tracks'
 
 try:
